@@ -1,0 +1,19 @@
+{
+  "name": "server-hackton",
+  "version": "1.0.0",
+  "description": "server on mongodb used in the project for server-hackton",
+  "main": "noteModel.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.20",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "DingyiKang",
+  "license": "ISC"
+}
